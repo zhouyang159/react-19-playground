@@ -1,5 +1,6 @@
 import { use, useState, Suspense } from 'react';
 
+
 // Simulate fetching a message
 function fetchMessage() {
   return new Promise((resolve) => setTimeout(resolve, 1000, '⚛️'));
